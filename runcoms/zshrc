@@ -11,3 +11,16 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+if [ -f ~/.config/exercism/exercism_completion.zsh ]; then
+  . ~/.config/exercism/exercism_completion.zsh
+fi
+
+alias vi="/usr/local/bin/vim"
+alias vim="/usr/local/bin/vim"
+alias vimdiff="/usr/local/bin/vimdiff"
+
+export GOPATH=~/.go
+export PATH=$HOME/bin:$PATH:$GOPATH/bin:HOME/.yarn/bin:$PATH
+export EDITOR='vim'
+export VISUAL='vim'
