@@ -23,4 +23,4 @@ alias vimdiff="/usr/local/bin/vimdiff"
 export EDITOR='vim'
 export VISUAL='vim'
 export GOPATH=~/.go
-export PATH=$HOME/bin:$PATH:$GOPATH/bin:HOME/.yarn/bin:$HOME/Code/flutter/bin:$PATH
+export PATH=/usr/lib/go-latest/bin:$HOME/bin:$PATH:$GOPATH/bin:HOME/.yarn/bin:$HOME/Code/flutter/bin:$PATH
